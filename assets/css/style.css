@@ -71,3 +71,30 @@ h2 {
     font-size: 2rem;
     color: var(--umber)
 }
+
+#about-me {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about-me h2 {
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+#about-me img {
+    width: 10rem;
+    border-radius: 2rem;
+}
+
+#about-me article {
+    display: flex;
+}
+
+#about-me p {
+    font-size: 1.5rem;
+    margin: 2rem;
+}
