@@ -45,7 +45,7 @@ li a {
     text-decoration: none;
     font-weight: bold;
     color: var(--umber);
-    font-size: 1.25rem;
+    font-size: 1.75rem;
 }
 
 li a:hover {
@@ -58,7 +58,7 @@ main section{
     display: flex;
     flex-direction: column;
     border-radius: 2rem;
-    padding: 4rem;
+    padding: 2rem;
     margin: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--almond);
@@ -74,19 +74,29 @@ h2 {
 
 #about-me {
     padding-top: 1rem;
+    padding-left: 4rem;
     display: flex;
     flex-wrap: wrap;
 }
 
 #about-me h2 {
+    background-color: var(--khaki);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     font-weight: bold;
-    margin-left: 2rem;
+    margin-left: 0rem;
     margin-bottom: 3rem;
+    width: 11rem;
+    height: 3rem;
+    margin-top: -1rem;
+    padding: 1rem;
+    padding-left: 2rem;
 }
 
 
 #about-me img {
-    width: 10rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 2rem;
 }
 
@@ -95,6 +105,7 @@ h2 {
 }
 
 #about-me p {
-    font-size: 1.5rem;
-    margin: 2rem;
+    font-size: 1.75rem;
+    margin: 3rem;
+    padding-top: 1.5rem;
 }
