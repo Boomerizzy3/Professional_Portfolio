@@ -19,6 +19,8 @@ header {
     padding-bottom: 0rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--almond);
+    border: .25rem solid var(--black);
+    box-shadow: .5rem .5rem 1rem black;
 }
 
 h1 {
@@ -62,6 +64,8 @@ main section{
     margin: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--almond);
+    border: .25rem solid var(--black);
+    box-shadow: .5rem .5rem 1rem black;
 }
 
 h2 {
@@ -108,4 +112,55 @@ h2 {
     font-size: 1.75rem;
     margin: 3rem;
     padding-top: 1.5rem;
+}
+
+#work {
+    padding-top: 1rem;
+    padding-left: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#work h2 {
+    background-color: var(--khaki);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-weight: bold;
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+    width: 11rem;
+    height: 3rem;
+    margin-top: -1rem;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+#work article {
+    justify-content: center;
+}
+
+#work a {
+    width: 20rem;
+    height: 20rem;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+}
+
+#work img {
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem;
+    border: .5rem solid var(--gunmetal);
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 1rem gray;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+
+#work img:hover {
+    opacity: .5;
+    transition: .5s ease;
 }
