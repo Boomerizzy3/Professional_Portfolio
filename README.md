@@ -6,7 +6,7 @@ This is a portfolio to provide a collection of work samples and other documents 
 
 ## Screenshot
 
-![Screenshot of deployed webiste](\assets\images\Screenshot.jpg)
+https://github.com/Boomerizzy3/Professional_Portfolio/blob/main/assets/images/Screenshot.jpg
 
 ## Deployed link
 
