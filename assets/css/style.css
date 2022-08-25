@@ -1,3 +1,4 @@
+/*Sets variable for colors in css file*/
 :root {
     --black: #000000;
     --gunmetal: #23313f;
@@ -6,6 +7,7 @@
     --umber: #39291c;
 }
 
+/*Sets color for background of page*/
 body {
     background-color: var(--gunmetal);
 }
@@ -125,12 +127,21 @@ h2 {
     gap: 4rem;
 }
 
+/*Removes the link from the "a" element so that only the image will take the user to the link*/
 #work a {
     width: 20rem;
     height: 20rem;
+    /*Removes underline from "a"*/
     text-decoration: none;
+    /*Disables "a" from being able to be targeted by the pointer*/
     pointer-events: none;
+    /*Prevents the cursor from changing to a pointer when hovering over "a"*/
     cursor: default;
+}
+
+.caption {
+    position: absolute;
+    bottom: 8rem;
 }
 
 #work img {
@@ -143,7 +154,7 @@ h2 {
     cursor: pointer;
 }
 
-
+/*Set image to fade into 50% opacity over the course of half a second when the mouse hovers over the image*/
 #work img:hover {
     opacity: .5;
     transition: .5s ease;
@@ -165,6 +176,7 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/*Adjusts the pages elements when the viewport goes below 1310px*/
 @media screen and (max-width: 1310px) {
     header {
         padding: 1rem;
@@ -193,6 +205,7 @@ h2 {
     
 }
 
+/*Adjusts the pages elements when the viewport goes below 980px*/
 @media screen and (max-width: 980px) {
     h1 {
         font-size: 3rem;
@@ -205,6 +218,7 @@ h2 {
     }
 }
 
+/*Adjusts the pages elements when the viewport goes below 780px*/
 @media screen and (max-width: 780px) {
     body {
         display: flex;
