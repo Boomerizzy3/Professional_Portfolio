@@ -162,6 +162,7 @@ h2 {
     justify-content:space-between;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.75rem;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1310px) {
@@ -215,36 +216,51 @@ h2 {
         flex-direction: column;
         padding: 0rem;
         margin: 0rem;
+        border-radius: 0rem;
+        border: .25rem solid transparent;
+        box-shadow: none
     }
-    h1 {
+    #about-me img {
+        height: 14rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1, h2 {
         text-align: center;
         border-radius: 0rem;
         margin-top: 0rem;
+        width: auto;
     }
     li {
         margin-right: 4rem;
         margin-left: 4rem;
     }
+    h2, main section, #work, #contact-me, #about-me {
+        display: block;
+        margin: 0rem;
+        padding: 0rem;
+        justify-content: center;
+        border-radius: 0rem;
+        border: .25rem solid transparent;
+        box-shadow: none;
+    }
+    article {
+        flex-direction: column;
+        justify-content: center;
+    }
+
     h2 {
-        margin: 0rem;
-        padding: 0rem;
+        margin-bottom: 1rem;
     }
-    main section {
-        margin: 0rem;
-        padding: 0rem;
+    #work img {
+        margin-left: auto;
+        margin-right: auto;
     }
-    #work {
-        margin: 0rem;
-        padding: 0rem;
+    #work article {
+        align-items: center;
     }
-    #contact-me {
-        margin: 0rem;
-        padding: 0rem;
-    }
-    #about-me {
-        margin: 0rem;
-        padding: 0rem;
+    #contact-me h2 {
+        margin-top: 2rem;
     }
 
     }
-}
