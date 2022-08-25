@@ -32,7 +32,7 @@ h1 {
     color: var(--umber);
     padding: 2rem;
 }
-
+*/
 nav {
     display: inline-block;
 }
@@ -73,17 +73,7 @@ h2 {
     margin: 1rem;
     margin-left: 0rem;
     font-size: 2rem;
-    color: var(--umber)
-}
-
-#about-me {
-    padding-top: 1rem;
-    padding-left: 4rem;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#about-me h2 {
+    color: var(--umber);
     background-color: var(--khaki);
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -97,6 +87,12 @@ h2 {
     padding-left: 2rem;
 }
 
+#about-me {
+    padding-top: 1rem;
+    padding-left: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 #about-me img {
     width: 12rem;
@@ -112,6 +108,7 @@ h2 {
     font-size: 1.75rem;
     margin: 3rem;
     padding-top: 1.5rem;
+    line-height: 2.25rem;
 }
 
 #work {
@@ -119,25 +116,13 @@ h2 {
     padding-left: 4rem;
     display: flex;
     flex-wrap: wrap;
-}
-
-
-#work h2 {
-    background-color: var(--khaki);
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    font-weight: bold;
-    margin-left: 0rem;
-    margin-bottom: 3rem;
-    width: 11rem;
-    height: 3rem;
-    margin-top: -1rem;
-    padding: 1rem;
-    padding-left: 2rem;
+    padding-bottom: 3rem;
 }
 
 #work article {
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
 }
 
 #work a {
@@ -151,7 +136,6 @@ h2 {
 #work img {
     width: 20rem;
     height: 20rem;
-    margin: 2rem;
     border: .5rem solid var(--gunmetal);
     border-radius: 2rem;
     box-shadow: 1rem 1rem 1rem gray;
@@ -163,4 +147,104 @@ h2 {
 #work img:hover {
     opacity: .5;
     transition: .5s ease;
+}
+
+#contact-me {
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-me article {
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.75rem;
+}
+
+@media screen and (max-width: 1310px) {
+    header {
+        padding: 1rem;
+        padding-left: 4rem;
+        padding-bottom: 0rem;
+    }
+    li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: .5rem;
+        padding: .5rem;
+        margin-right: 4rem;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: .5rem;
+    }
+    h1 {
+        margin-top: 6rem;
+    }
+    #about-me p {
+        font-size: 1.25rem;
+    }
+    #contact-me p {
+        font-size: 1.25rem;
+    }    
+    
+}
+
+@media screen and (max-width: 980px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    #contact-me p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    h1 {
+        text-align: center;
+        border-radius: 0rem;
+        margin-top: 0rem;
+    }
+    li {
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+    h2 {
+        margin: 0rem;
+        padding: 0rem;
+    }
+    main section {
+        margin: 0rem;
+        padding: 0rem;
+    }
+    #work {
+        margin: 0rem;
+        padding: 0rem;
+    }
+    #contact-me {
+        margin: 0rem;
+        padding: 0rem;
+    }
+    #about-me {
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    }
 }
