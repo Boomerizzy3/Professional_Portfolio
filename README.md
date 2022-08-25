@@ -2,13 +2,13 @@
 
 This is a portfolio to provide a collection of work samples and other documents that demonstrates an overview of my abilities and qualifications. It has links to different projects that I have worked on and created. As well as a link to my resume.
 
-# Screenshot
+## Screenshot
 
+![Screenshot of deployed webiste](./assets./images/Screenshot.jpg)
 
+## Deployed link
 
-# Deployed link
-
-
+https://boomerizzy3.github.io/Professional_Portfolio/
 
 ## Credits
 
