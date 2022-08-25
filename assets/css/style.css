@@ -139,9 +139,16 @@ h2 {
     cursor: default;
 }
 
-.caption {
-    position: absolute;
+/*Set caption on each image link*/
+figcaption {
+    color: blue;
+    background-color: rgba(83, 83, 83, 0.722);
+    font-size: 2rem;
+    position: relative;
     bottom: 8rem;
+    left: .5rem;
+    text-align: center;
+    height: 4.25rem;
 }
 
 #work img {
